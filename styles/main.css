@@ -363,7 +363,7 @@ ul {
     }
 
     .main-content, 
-    .side-panel-right, 
+    .side-panel-right,
     .side-panel-right-wrapper,
     .footer {
         display: none;
@@ -377,12 +377,13 @@ ul {
     .side-panel-left-wrapper {
         grid-area: mc;
         display: flex;
+        border-bottom: none;
+
     }
 
     .side-panel-left {
         align-self: center;
-    }
-    li {
-        list-style-type: none;
+        border-bottom: none;
+        border-left: none;
     }
 }
