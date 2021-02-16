@@ -77,6 +77,24 @@ ul {
     justify-content: center;
     align-items: center;
 }
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about-me {
+    position: absolute;
+    text-align: center;
+    margin: 0 200px;
+}
+#about-me::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+    bottom: 0;
+    border-bottom: 1.5px solid yellow;
+}
 
 .main-content {
     display: flex;
