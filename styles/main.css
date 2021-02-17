@@ -78,7 +78,6 @@ a:hover {
     display: flex;
     justify-content: center;    
     align-items: center;
-
 }
 ul {
     display: flex;
@@ -90,6 +89,9 @@ ul {
     margin: auto 30px;
     padding: 0;
     font-size: 30px;
+}
+#nav-blog {
+    display: none;
 }
 
 
@@ -381,5 +383,8 @@ ul {
         align-self: center;
         border-bottom: none;
         border-left: none;
+    }
+    #nav-blog {
+        display:flex;
     }
 }
