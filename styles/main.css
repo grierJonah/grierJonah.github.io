@@ -19,7 +19,7 @@ a:hover {
 /* * * * * * * * * * * * * * * * * * * * *
 
     SITE ARCHITECTURE
-
+    
 * * * * * * * * * * * * * * * * * * * * */
 .grid-container {
     display: grid;
@@ -97,6 +97,7 @@ ul {
 
              ALL PARTS SQUARE
   (margin adjustments to offset 3D look)
+
 * * * * * * * * * * * * * * * * * * * * */
 .square-wrapper {
     margin-left: 47%;
@@ -226,13 +227,11 @@ ul {
 /* * * * * * * * * * * * * * * *
     
     FOOTER / FLOATING BACKGROUND
-
 * * * * * * * * * * * * * * * */
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 #about-me {
     position: absolute;
