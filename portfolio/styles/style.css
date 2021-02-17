@@ -131,7 +131,7 @@ ul {
     border-bottom: 1.5px solid yellow;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 989px) {
     .grid-container {
         display: grid;
         grid-template-areas: 
