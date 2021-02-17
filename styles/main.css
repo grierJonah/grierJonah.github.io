@@ -349,6 +349,13 @@ ul {
     and resizes grid container to be less open
 */
 @media (max-width: 989px) {
+    .main-content, 
+    .side-panel-right,
+    .side-panel-right-wrapper,
+    .footer {
+        display: none;
+    }
+
     .grid-container {
         margin: 0;
         padding: 0;
@@ -362,11 +369,8 @@ ul {
         width: 100vw;
     }
 
-    .main-content, 
-    .side-panel-right,
-    .side-panel-right-wrapper,
-    .footer {
-        display: none;
+    .grid-container > div {
+        border: 4px solid rgb(108,140,122);
     }
 
     .header-box {
@@ -386,9 +390,11 @@ ul {
         border-bottom: none;
         border-left: none;
     }
+
     ul {
         font-size: 35px;
     }
+    
     #nav-blog {
         display:flex;
     }

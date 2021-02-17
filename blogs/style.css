@@ -31,7 +31,7 @@ a:hover {
 }
 
 .grid-container > div {
-    border: 1px solid rgb(108,140,122);
+    border: 4px solid rgb(108,140,122);
     opacity: 0.75;
 }
 
