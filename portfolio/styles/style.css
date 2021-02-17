@@ -130,3 +130,21 @@ ul {
     bottom: 0;
     border-bottom: 1.5px solid yellow;
 }
+
+@media (max-width: 900px) {
+    .grid-container {
+        display: grid;
+        grid-template-areas: 
+            "header-box header-box header-box"
+            "side-panel-left main-content side-panel-right"
+        ;
+    
+        grid-template-columns: 1fr 4fr 1fr;
+        grid-template-rows: 1fr 8fr;
+        grid-gap: 10px;
+        height: 100vh;
+    }
+    .footer {
+        display: none;
+    }
+}
