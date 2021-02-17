@@ -144,6 +144,9 @@ ul {
         grid-gap: 10px;
         height: 100vh;
     }
+    .grid-container > div {
+        border-width: 4px; 
+    }
     .footer {
         display: none;
     }
