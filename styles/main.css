@@ -348,7 +348,7 @@ ul {
     Media Query Removes floating squares, spinning box,
     and resizes grid container to be less open
 */
-@media (max-width: 1024px) {
+@media (max-width: 900px) {
     .grid-container {
         margin: 0;
         padding: 0;
@@ -372,19 +372,22 @@ ul {
     .header-box {
         grid-area: hb;
         width: 100%;
+        font-size: 35px;
     }
 
     .side-panel-left-wrapper {
         grid-area: mc;
         display: flex;
         border-bottom: none;
-
     }
 
     .side-panel-left {
         align-self: center;
         border-bottom: none;
         border-left: none;
+    }
+    ul {
+        font-size: 35px;
     }
     #nav-blog {
         display:flex;
